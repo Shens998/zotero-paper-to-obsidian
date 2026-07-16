@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Paper to Obsidian"
+  short_description: "Read one Zotero paper and create a safe Obsidian note"
+  default_prompt: "Use $zotero-paper-to-obsidian to read a Zotero paper and create its structured Obsidian literature note."
