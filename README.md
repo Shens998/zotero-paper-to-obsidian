@@ -2,6 +2,12 @@
 
 An installable Codex Skill for a research workflow in which **Zotero manages literature**, **Codex reads and drafts structured notes**, and **Obsidian manages the knowledge base**.
 
+[中文 README](README.zh-CN.md) · [完整中文搭建指南](docs/zh-CN/setup.md)
+
+## 中文简介
+
+面向科研写作的 Codex Skill：由 Zotero 管理文献，Codex 自动阅读单篇 PDF 并生成带方法、数据、创新点与证据定位的结构化笔记，Obsidian 负责管理和关联知识库，Word 继续通过 Zotero 完成正式引文。
+
 The Skill processes one Zotero paper at a time. It reads available metadata, PDF text, and annotations; creates an evidence-aware literature note; and safely writes it into an Obsidian Vault. Existing notes are never overwritten: only empty metadata may be filled, and proposed additions are appended for review.
 
 ## Roles
@@ -35,7 +41,7 @@ Codex requests write permission only when a completed note is ready to enter you
 
 ## Documentation
 
-For the complete Chinese setup guide—including OneDrive sync, review states, Word handoff, and troubleshooting—see [docs/zh-CN/setup.md](docs/zh-CN/setup.md).
+For the complete Chinese setup guide—including OneDrive sync, review states, Word handoff, and troubleshooting—see [README.zh-CN.md](README.zh-CN.md) and [docs/zh-CN/setup.md](docs/zh-CN/setup.md).
 
 ## License
 
